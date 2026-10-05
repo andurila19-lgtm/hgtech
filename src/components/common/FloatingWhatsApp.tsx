@@ -8,7 +8,7 @@ export default function FloatingWhatsApp() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end">
+    <div id="floating-whatsapp" className="fixed bottom-5 right-5 z-40 flex flex-col items-end no-print">
       
       {/* Quick Menu Popover */}
       {isOpen && (
